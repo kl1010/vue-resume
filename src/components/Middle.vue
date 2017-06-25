@@ -4,7 +4,7 @@
       <h3>Skills that I have accumulated over the Years</h3>
     </div>
 
-    <img src="../assets/img/skills.png" style="width:100%;max-width:1130px">
+    <img id = "img-skills" src="../assets/img/skills.png" >
   </section>
 </template>
 
@@ -16,5 +16,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+#img-skills{
+width:100%;
+max-width:1130px;
+}
 </style>
